@@ -131,3 +131,62 @@ position: absolute;
         box-shadow: 0 0 24px hsl(158, 89%, 43%);
     }
 }
+
+/*========== BUTTON ==========*/
+.button{
+    display: inline-block;
+    background-color: var(--first-color);
+    color: var(--white-color);
+    padding: 1rem 2rem;
+    border-radius: .25rem;
+    font-size: var(--normal-font-size);
+    transition: .3s;
+}
+ .button:hover{
+    background-color: var(--first-color-alt);
+ }
+
+/*========== ABOUT ==========*/
+.about-container{
+    row-gap: 6rem;
+}
+
+.about-group{
+    position: relative;
+}
+
+.about-img{
+    width: 310px;
+    border-radius: .5rem;
+}
+
+.about-card{
+    width:180px;
+    position: absolute;
+    right: 0;
+    bottom: -2.5rem;
+    background-color: hsla(0, 0%, 100%, .1);
+    backdrop-filter: blur(16px);
+    padding: 1rem .75rem;
+    text-align: center;
+    border-radius: 1.25rem;
+}
+
+.about-card-title{
+    font-size: var(--h3-font-size);
+    margin-bottom: .5rem;
+}
+
+.about-card-description{
+    font-size: var(--smaller-font-size);
+}
+
+.about-title{
+    text-align: initial;
+    margin-bottom: 2rem;
+}
+
+.about-description{
+    margin-bottom: 2rem;
+
+}
