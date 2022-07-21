@@ -108,3 +108,20 @@
   .main {
     overflow: hidden;
   }
+
+  .shape{
+    background-color: hsla(219, 33%, 32%, .5);
+    filter: blur(112px);
+    border-radius: 50%;
+
+  }
+
+  .shape-big{
+    width: 400px;
+    height: 400px;
+  }
+
+  .shape-small{
+    width: 300px;
+    height: 300px;
+  }

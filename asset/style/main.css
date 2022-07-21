@@ -1,1 +1,133 @@
 /*========== MAIN ==========*/
+
+/*========== HOME ==========*/
+.home{
+    position: relative;
+    overflow: hidden;
+}
+
+.home-container{
+    position: relative;
+    padding-top: 4rem;
+    row-gap: 3rem;
+}
+
+.home-data{
+    text-align: center;
+}
+
+.home-title{
+    font-size: var(--h1-font-size);
+    margin-bottom: 1rem;
+}
+
+.home-subtitle{
+    font-size: var(--h3-font-size);
+    margin-bottom: .25rem;
+}
+
+.home-elec{
+font-size: small;
+font-weight: 400;
+color: var(--text-color);
+display: inline-flex;
+align-items: center;
+column-gap: .25rem;
+}
+
+.home-elec i {
+    color: var(--first-color);
+}
+
+.home-img{
+    width: 280px;
+    justify-self: center;
+}
+
+.home-car{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 4rem;
+    margin-bottom: 2rem;
+}
+
+.home-car-name{
+    font-size: .625rem;
+    font-weight: 400;
+    color:var(--text-color-light);
+}
+
+.home-car-data{
+    text-align: center;
+}
+.home-car-number{
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: .25rem;
+}
+
+.home-car-icon{
+    background-color:var(--container-color);
+    border-radius: 50%;
+    padding: .376rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .875rem;
+    margin-bottom: .75rem;
+}
+
+.home-button{
+    position: relative;
+    border: 2px solid hsl(158, 89%, 30%);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    font-size: var(--small-font-size);
+    color: var(--white-color);
+    font-weight: var(--font-medium);
+}
+
+.home-button::before{
+    content:'';
+    border: 2px solid hsl(158, 89%, 30%);
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0 0 12px hsl(158, 89%, 43%);
+    transition: .3s;
+    animation: button 3s infinite;
+}
+
+
+.home .shape-big,
+.home .shape-small{
+position: absolute;
+}
+
+.home .shape-big{
+    left: -9rem;
+    top: -4rem;
+}
+
+.home .shape-small{
+    right: -10rem;
+    bottom: 3rem;
+}
+
+/* Button animate */
+@keyframes button {
+    0%{
+        box-shadow: 0 0 12px hsl(158, 89%, 43%);
+    }
+
+    50%{
+        box-shadow: 0 0 24px hsl(158, 89%, 43%);
+    }
+}
