@@ -1,50 +1,50 @@
 /*========== MAIN ==========*/
 
 /*========== HOME ==========*/
-.home{
+.home {
     position: relative;
     overflow: hidden;
 }
 
-.home-container{
+.home-container {
     position: relative;
     padding-top: 4rem;
     row-gap: 3rem;
 }
 
-.home-data{
+.home-data {
     text-align: center;
 }
 
-.home-title{
+.home-title {
     font-size: var(--h1-font-size);
     margin-bottom: 1rem;
 }
 
-.home-subtitle{
+.home-subtitle {
     font-size: var(--h3-font-size);
     margin-bottom: .25rem;
 }
 
-.home-elec{
-font-size: small;
-font-weight: 400;
-color: var(--text-color);
-display: inline-flex;
-align-items: center;
-column-gap: .25rem;
+.home-elec {
+    font-size: small;
+    font-weight: 400;
+    color: var(--text-color);
+    display: inline-flex;
+    align-items: center;
+    column-gap: .25rem;
 }
 
 .home-elec i {
     color: var(--first-color);
 }
 
-.home-img{
+.home-img {
     width: 280px;
     justify-self: center;
 }
 
-.home-car{
+.home-car {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,23 +52,24 @@ column-gap: .25rem;
     margin-bottom: 2rem;
 }
 
-.home-car-name{
+.home-car-name {
     font-size: .625rem;
     font-weight: 400;
-    color:var(--text-color-light);
+    color: var(--text-color-light);
 }
 
-.home-car-data{
+.home-car-data {
     text-align: center;
 }
-.home-car-number{
+
+.home-car-number {
     font-size: var(--h2-font-size);
     font-weight: var(--font-medium);
     margin-bottom: .25rem;
 }
 
-.home-car-icon{
-    background-color:var(--container-color);
+.home-car-icon {
+    background-color: var(--container-color);
     border-radius: 50%;
     padding: .376rem;
     display: inline-flex;
@@ -78,7 +79,7 @@ column-gap: .25rem;
     margin-bottom: .75rem;
 }
 
-.home-button{
+.home-button {
     position: relative;
     border: 2px solid hsl(158, 89%, 30%);
     width: 70px;
@@ -93,8 +94,8 @@ column-gap: .25rem;
     font-weight: var(--font-medium);
 }
 
-.home-button::before{
-    content:'';
+.home-button::before {
+    content: '';
     border: 2px solid hsl(158, 89%, 30%);
     width: 90px;
     height: 90px;
@@ -107,33 +108,33 @@ column-gap: .25rem;
 
 
 .home .shape-big,
-.home .shape-small{
-position: absolute;
+.home .shape-small {
+    position: absolute;
 }
 
-.home .shape-big{
+.home .shape-big {
     left: -9rem;
     top: -4rem;
 }
 
-.home .shape-small{
+.home .shape-small {
     right: -10rem;
     bottom: 3rem;
 }
 
 /* Button animate */
 @keyframes button {
-    0%{
+    0% {
         box-shadow: 0 0 12px hsl(158, 89%, 43%);
     }
 
-    50%{
+    50% {
         box-shadow: 0 0 24px hsl(158, 89%, 43%);
     }
 }
 
 /*========== BUTTON ==========*/
-.button{
+.button {
     display: inline-block;
     background-color: var(--first-color);
     color: var(--white-color);
@@ -142,26 +143,27 @@ position: absolute;
     font-size: var(--normal-font-size);
     transition: .3s;
 }
- .button:hover{
+
+.button:hover {
     background-color: var(--first-color-alt);
- }
+}
 
 /*========== ABOUT ==========*/
-.about-container{
+.about-container {
     row-gap: 6rem;
 }
 
-.about-group{
+.about-group {
     position: relative;
 }
 
-.about-img{
+.about-img {
     width: 310px;
     border-radius: .5rem;
 }
 
-.about-card{
-    width:180px;
+.about-card {
+    width: 180px;
     position: absolute;
     right: 0;
     bottom: -2.5rem;
@@ -172,21 +174,21 @@ position: absolute;
     border-radius: 1.25rem;
 }
 
-.about-card-title{
+.about-card-title {
     font-size: var(--h3-font-size);
     margin-bottom: .5rem;
 }
 
-.about-card-description{
+.about-card-description {
     font-size: var(--smaller-font-size);
 }
 
-.about-title{
+.about-title {
     text-align: initial;
     margin-bottom: 2rem;
 }
 
-.about-description{
+.about-description {
     margin-bottom: 2rem;
 
 }
