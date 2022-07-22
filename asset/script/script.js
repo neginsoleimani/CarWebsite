@@ -55,3 +55,23 @@ let swiper = new Swiper(".popular-container", {
     },
 });
 
+//Mixitup
+let mixerFeatured = mixitup('.featured-content', {
+    selectors: {
+        target: '.featured-card'
+    },
+    animation: {
+        duration: 300
+    }
+});
+
+// Link Featured Active
+
+const featuredLink = document.querySelectorAll('.featured-item')
+
+function activeFeatured(){
+    featuredLink.forEach(l=>l.classList.remove('active-featured'))
+    this.classList.add('active-featured')
+}
+featuredLink.forEach(l=>l.addEventListener("click",activeFeatured))
+

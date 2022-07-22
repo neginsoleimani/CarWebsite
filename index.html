@@ -275,7 +275,86 @@
             </div>
             <img src="./asset/images/map.svg" alt="" class="features-map">
         </section>
+        <!--=============== FEATURED ===============-->
+        <section class="featured section" id="featured">
+            <h2 class="section-title">Featured Luxury Cars</h2>
+            <div class="featured-container container grid">
+                <ul class="featured-filters">
 
+                    <li>
+                        <button class="featured-item active-featured" data-filter="all">
+                            <span>All</span>
+                        </button>
+                    </li>
+
+                    <li>
+                        <button class="featured-item" data-filter=".tesla">
+                            <img src="./asset/images/logo3.png" alt="">
+                        </button>
+                    </li>
+
+                    <li>
+                        <button class="featured-item" data-filter=".audi">
+                            <img src="./asset/images/logo2.png" alt="">
+                        </button>
+                    </li>
+
+                    <li>
+                        <button class="featured-item" data-filter=".porsche">
+                            <img src="./asset/images/logo1.png" alt="">
+                        </button>
+                    </li>
+                </ul>
+                <div class="featured-content grid">
+
+                    <article class="featured-card mix tesla">
+                        <div class="shape shape-smaller"></div>
+                        <h1 class="featred-title">Tesla</h1>
+                        <h3 class="featured-subtitle">Model X</h3>
+                        <img src="./asset/images/featured1.png" alt="" class="featured-img">
+                        <h3 class="featured-price">$98,900</h3>
+                        <button class="button featured-button"><i class="ri-shopping-bag-2-line"></i></button>
+                    </article>
+
+                    <article class="featured-card mix tesla">
+                        <div class="shape shape-smaller"></div>
+                        <h1 class="featred-title">Tesla</h1>
+                        <h3 class="featured-subtitle">Model 3</h3>
+                        <img src="./asset/images/featured2.png" alt="" class="featured-img">
+                        <h3 class="featured-price">$45,900</h3>
+                        <button class="button featured-button"><i class="ri-shopping-bag-2-line"></i></button>
+                    </article>
+
+                    <article class="featured-card mix audi">
+                        <div class="shape shape-smaller"></div>
+                        <h1 class="featred-title">Audi</h1>
+                        <h3 class="featured-subtitle">E-tron</h3>
+                        <img src="./asset/images/featured3.png" alt="" class="featured-img">
+                        <h3 class="featured-price">$175,900</h3>
+                        <button class="button featured-button"><i class="ri-shopping-bag-2-line"></i></button>
+                    </article>
+
+                    <article class="featured-card mix porsche">
+                        <div class="shape shape-smaller"></div>
+                        <h1 class="featred-title">Porsche</h1>
+                        <h3 class="featured-subtitle">Boxster 987</h3>
+                        <img src="./asset/images/featured4.png" alt="" class="featured-img">
+                        <h3 class="featured-price">$126,900</h3>
+                        <button class="button featured-button"><i class="ri-shopping-bag-2-line"></i></button>
+                    </article>
+
+                    <article class="featured-card mix porsche">
+                        <div class="shape shape-smaller"></div>
+                        <h1 class="featred-title">Porsche</h1>
+                        <h3 class="featured-subtitle">Panamera</h3>
+                        <img src="./asset/images/featured5.png" alt="" class="featured-img">
+                        <h3 class="featured-price">$126,900</h3>
+                        <button class="button featured-button"><i class="ri-shopping-bag-2-line"></i></button>
+                    </article>
+
+                </div>
+            </div>
+        </section>
 
     </main>
 
@@ -284,8 +363,12 @@
 
     </footer>
 
+     <!--=============== MIXITUP JS  ===============-->
+     <script src="./asset/script/mixitup.min.js"></script>
+
     <!--=============== SWIPER JS  ===============-->
     <script src="./asset/script/swiper-bundle.min.js"></script>
+
     <!--=============== SCRIPT ===============-->
     <script src="./asset/script/script.js"></script>
 
