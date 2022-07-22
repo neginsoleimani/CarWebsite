@@ -86,6 +86,7 @@ img {
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
+
 .container {
   max-width: 1024px;
   margin-right: 1.5rem;
@@ -132,4 +133,21 @@ img {
   width: 180px;
   height: 180px;
   filter: blur(64px);
+}
+
+/*=============== SCROLL BAR ===============*/
+
+::-webkit-scrollbar{
+  width: 0.6rem;
+  background-color: hsl(219, 4%, 16%);
+  border-radius: 1rem;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: hsl(219, 4%, 24%);
+  border-radius: 1rem;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-color: hsl(219, 4%, 32%);
 }
