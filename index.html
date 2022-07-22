@@ -10,6 +10,10 @@
     <!--=============== REMIX ICON  ===============-->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
+    <!--=============== SWIPER CSS  ===============-->
+    <link rel="stylesheet" href="./asset/style/swiper-bundle.min.css">
+
+
     <title> Responsive Car Website</title>
 
     <!--=============== STYLESHEET ===============-->
@@ -20,6 +24,7 @@
 </head>
 
 <body>
+
     <!--=============== HEADER ===============-->
     <header class="header" id="header">
         <nav class="nav container">
@@ -56,6 +61,7 @@
 
     <!--=============== MAIN ===============-->
     <main>
+
         <!--=============== HOME ===============-->
         <section class="home section" id="home">
             <div class="shape shape-big"></div>
@@ -130,6 +136,118 @@
                 </div>
             </div>
         </section>
+
+        <!--=============== POPULAR ===============-->
+        <section class="popular section" id="popular">
+            <h2 class="section-title">
+                Choose Your Electric Car <br> Of The Porsche Brand
+            </h2>
+            <div class="popular-container container swiper ">
+                <div class="swiper-wrapper">
+                    <article class="popular-card swiper-slide">
+                        <div class="shape shape-smaller"></div>
+                        <h1 class="popular-title">Porsche</h1>
+                        <h3 class="popular-subtitle">Turbo S</h3>
+                        <img src="./asset/images/popular1.png" alt="" class="popular-img">
+                        <div class="popular-data">
+                            <div class="popular-data-group">
+                                <i class="ri-dashboard-3-line"></i> 3.7sec
+                            </div>
+                            <div class="popular-data-group">
+                                <i class="ri-funds-box-line"></i> 356 Km/h
+                            </div>
+                            <div class="popular-data-group">
+                                <i class="ri-charging-pile-2-line"></i> Electric
+                            </div>
+                        </div>
+                        <h3 class="popular-price">$175,900</h3>
+                        <button class="button popular-button"><i class="ri-shopping-bag-2-line"></i></button>
+                    </article>
+
+                    <article class="popular-card swiper-slide">
+                        <div class="shape shape-smaller"></div>
+                        <h1 class="popular-title">Porsche</h1>
+                        <h3 class="popular-subtitle">Taycan</h3>
+                        <img src="./asset/images/popular2.png" alt="" class="popular-img">
+                        <div class="popular-data">
+                            <div class="popular-data-group">
+                                <i class="ri-dashboard-3-line"></i> 3.7sec
+                            </div>
+                            <div class="popular-data-group">
+                                <i class="ri-funds-box-line"></i> 356 Km/h
+                            </div>
+                            <div class="popular-data-group">
+                                <i class="ri-charging-pile-2-line"></i> Electric
+                            </div>
+                        </div>
+                        <h3 class="popular-price">$114,900</h3>
+                        <button class="button popular-button"><i class="ri-shopping-bag-2-line"></i></button>
+                    </article>
+
+                    <article class="popular-card swiper-slide">
+                        <div class="shape shape-smaller"></div>
+                        <h1 class="popular-title">Porsche</h1>
+                        <h3 class="popular-subtitle">Turbo S Cross</h3>
+                        <img src="./asset/images/popular3.png" alt="" class="popular-img">
+                        <div class="popular-data">
+                            <div class="popular-data-group">
+                                <i class="ri-dashboard-3-line"></i> 3.7sec
+                            </div>
+                            <div class="popular-data-group">
+                                <i class="ri-funds-box-line"></i> 356 Km/h
+                            </div>
+                            <div class="popular-data-group">
+                                <i class="ri-charging-pile-2-line"></i> Electric
+                            </div>
+                        </div>
+                        <h3 class="popular-price">$150,900</h3>
+                        <button class="button popular-button"><i class="ri-shopping-bag-2-line"></i></button>
+                    </article>
+
+                    <article class="popular-card swiper-slide">
+                        <div class="shape shape-smaller"></div>
+                        <h1 class="popular-title">Porsche</h1>
+                        <h3 class="popular-subtitle">Boxster 718</h3>
+                        <img src="./asset/images/popular4.png" alt="" class="popular-img">
+                        <div class="popular-data">
+                            <div class="popular-data-group">
+                                <i class="ri-dashboard-3-line"></i> 3.7sec
+                            </div>
+                            <div class="popular-data-group">
+                                <i class="ri-funds-box-line"></i> 356 Km/h
+                            </div>
+                            <div class="popular-data-group">
+                                <i class="ri-charging-pile-2-line"></i> Electric
+                            </div>
+                        </div>
+                        <h3 class="popular-price">$125,900</h3>
+                        <button class="button popular-button"><i class="ri-shopping-bag-2-line"></i></button>
+                    </article>
+
+                    <article class="popular-card swiper-slide">
+                        <div class="shape shape-smaller"></div>
+                        <h1 class="popular-title">Porsche</h1>
+                        <h3 class="popular-subtitle">Cayman</h3>
+                        <img src="./asset/images/popular5.png" alt="" class="popular-img">
+                        <div class="popular-data">
+                            <div class="popular-data-group">
+                                <i class="ri-dashboard-3-line"></i> 3.7sec
+                            </div>
+                            <div class="popular-data-group">
+                                <i class="ri-funds-box-line"></i> 356 Km/h
+                            </div>
+                            <div class="popular-data-group">
+                                <i class="ri-charging-pile-2-line"></i> Electric
+                            </div>
+                        </div>
+                        <h3 class="popular-price">$128,900</h3>
+                        <button class="button popular-button"><i class="ri-shopping-bag-2-line"></i></button>
+                    </article>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
     </main>
 
     <!--=============== FOOTER ===============-->
@@ -137,8 +255,11 @@
 
     </footer>
 
+    <!--=============== SWIPER JS  ===============-->
+    <script src="./asset/script/swiper-bundle.min.js"></script>
     <!--=============== SCRIPT ===============-->
     <script src="./asset/script/script.js"></script>
+
 </body>
 
 </html>

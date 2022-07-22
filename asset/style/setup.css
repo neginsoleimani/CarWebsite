@@ -127,3 +127,9 @@ img {
   width: 300px;
   height: 300px;
 }
+
+.shape-smaller{
+  width: 180px;
+  height: 180px;
+  filter: blur(64px);
+}

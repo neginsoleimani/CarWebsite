@@ -33,5 +33,25 @@ function scrollHeader() {
         header.classList.remove('scroll-header')
     }
 }
-
 window.addEventListener("scroll", scrollHeader)
+
+//Swiper
+let swiper = new Swiper(".popular-container", {
+    loop: true,
+    spaceBetween: 24,
+    slidesPreView: "auto",
+    grabCursor: true,
+    pagination: {
+        el: ".swiper-pagination",
+    },
+
+    breakpoints: {
+        768: {
+            slidesPerView: 3,
+        },
+        1024: {
+            spaceBetween: 48,
+        },
+    },
+});
+
