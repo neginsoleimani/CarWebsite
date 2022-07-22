@@ -1,1 +1,88 @@
 /*========== FOOTER ==========*/
+
+.footer{
+    position: relative;
+    overflow: hidden;
+}
+
+.footer .shape-big,
+.footer .shape-small{
+    position: absolute;
+}
+
+.footer .shape-big{
+    width: 300px;
+    height: 300px;
+    top: 6rem;
+    left: -12rem;
+}
+
+.footer .shape-small{
+    right: -13rem;
+    bottom: -6rem;
+}
+
+.footer-container{
+    row-gap: 2.5rem;
+    position: relative;
+}
+
+.footer-logo{
+    display: inline-flex;
+    align-items: center;
+    column-gap: .25rem;
+    color:var(--title-color);
+    font-size: var(--h2-font-size);
+    font-family: var(--font-semi-bold);
+    margin-bottom: 1.25rem;
+    transition: .3s;
+}
+
+.footer-logo i{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.footer-logo:hover{
+    color: var(--first-color);
+}
+
+.footer-title{
+font-size: var(--h3-font-size);
+margin-bottom: 1.25rem;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+}
+
+.footer-link,
+.footer-social-link{
+    color: var(--text-color);
+    transition: .3s;
+}
+
+.footer-link:hover,
+.footer-social-link:hover{
+color: var(--title-color);
+}
+
+.footer-social{
+    display: flex;
+    column-gap: 1.5rem;
+}
+
+.footer-social-link{
+    font-size: 1.25rem;
+}
+
+.footer-copy{
+    display: block;
+    margin-top: 4.5rem;
+    text-align: center;
+    font-size: var(--smaller-font-size);
+    color:var(--text-color-light);
+}
+
