@@ -491,6 +491,7 @@
 
 .offer{
     position: relative;
+    overflow: hidden;
 }
 
 .offer-container{
@@ -532,3 +533,22 @@
     right:-5.5rem;
 }
 
+/*========== LOGOS ==========*/
+
+.logos-container{
+    grid-template-columns: repeat(3,max-content);
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding-bottom: 2rem;
+}
+
+.logos-img{
+    width: 40px;
+    opacity: .4;
+    transition: .3s;
+}
+
+.logos-img:hover{
+    opacity: 1;
+}
