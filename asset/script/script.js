@@ -66,7 +66,6 @@ let mixerFeatured = mixitup('.featured-content', {
 });
 
 // Link Featured Active
-
 const featuredLink = document.querySelectorAll('.featured-item')
 
 function activeFeatured(){
