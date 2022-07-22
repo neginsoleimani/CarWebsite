@@ -344,20 +344,20 @@
     bottom: 2rem;
 }
 
-.features-card-title{
+.features-card-title {
     font-size: var(--h3-font-size);
     margin-bottom: .25rem;
 }
 
-.features-card-description{
+.features-card-description {
     font-size: var(--smaller-font-size);
 }
 
-.features-map{
+.features-map {
     max-width: initial;
     width: 450px;
     position: absolute;
-    top:8rem;
+    top: 8rem;
     left: -3rem;
     margin: auto;
     transform: rotate(-22deg);
