@@ -99,4 +99,9 @@ header {
 }
 
 
+/* Active Link */
+.active-link{
+    color: var(--first-color);
+}
+
 /*========== REMOVE MOBLIE MENU ==========*/
