@@ -1,0 +1,295 @@
+/*========== BREAKPOINTS ==========*/
+
+/* For Small Devices */
+@media screen and (max-width:320px) {
+    .container {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    .home-container {
+        margin: 0;
+    }
+
+    .home-img {
+        width: 250px;
+    }
+
+    .home-car {
+        column-gap: 2rem;
+    }
+
+    .about-card {
+        width: 150px;
+    }
+
+    .offer-container {
+        grid-template-rows: max-content 180px;
+    }
+
+    .offer-img {
+        width: 340px;
+    }
+
+    .logos-container {
+        gap: 2.5rem;
+    }
+}
+
+/* For Medium Devices */
+
+@media screen and (min-width:576px) {
+    .about-group {
+        width: 350px;
+        justify-self: center;
+    }
+
+    .featured-content {
+        grid-template-columns: repeat(2, 228px);
+    }
+
+    .offer-container {
+        grid-template-rows: initial;
+        grid-template-columns: .5fr;
+        justify-content: center;
+    }
+
+    .offer-img {
+        position: relative;
+        bottom: initial;
+        right: initial;
+    }
+
+    .offer-data {
+        margin-bottom: 4rem;
+    }
+}
+
+@media screen and (min-width:767px) {
+
+    .section {
+        padding: 7rem 0 2rem;
+    }
+
+    .nav {
+        height: calc(var(--header-height) + 1.5rem);
+    }
+
+    .nav-toggle,
+    .nav-close{
+        display: none;
+    }
+
+    .nav-list{
+        flex-direction: row;
+        column-gap: 3rem;
+        padding-top: 0;
+    }
+
+    .nav-link{
+        font-size: var(--normal-font-size);
+        text-transform: initial;
+    }
+
+    .about-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .logos-container{
+        gap: 4rem 8rem;
+    }
+
+    .footer-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+/* For Large Devices */
+
+@media screen and (min-width:1040px) {
+.container{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.shape-big{
+    width: 500px;
+    height: 500px;
+}
+
+.shape-small{
+    width: 400px;
+    height: 400px;
+}
+
+.home-container{
+    padding-top: 2rem;
+}
+
+.home-img{
+    width: 380px;
+}
+
+.home-car{
+    column-gap: 7rem;
+}
+
+.home-car-icon{
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.about-container{
+    column-gap: 6rem;
+    align-items: center;
+}
+
+.about-group,
+.about-img{
+    width: 480px;
+}
+
+.about-card{
+    width: 198px;
+    padding: 1rem 1.25rem;
+}
+
+.about-description{
+    padding-right: 4rem;
+    margin-bottom: 3rem;
+}
+
+.popular-container{
+    width: 875px;
+    padding-top: 3rem;
+}
+
+.popular-card{
+    width: 258px;
+    border-radius: 1.25rem;
+    margin-bottom: 5rem;
+}
+.popular-img{
+    width: 180px;
+    margin: 0.75rem 0 1.25rem 2rem;
+}
+
+.features-container{
+padding: 2rem 0 3rem;
+}
+
+.features-img{
+    width: 200px;
+}
+
+.features-card{
+    width: 127px;
+    padding: 0.75rem 2.5rem;
+}
+
+.features-card-1{
+    left: -1rem;
+}
+
+.features-card-2{
+    right: -2.5rem;
+}
+
+.features-card-3{
+    bottom: 7rem;
+    left: -1rem;
+}
+
+.features-map{
+    width: 650px;
+    top: 11rem;
+}
+
+.featured-container{
+    padding-bottom: 2.5rem;
+}
+
+.featured-filters{
+    column-gap: 2rem;
+    margin-bottom: 4.5rem;
+}
+
+.featured-item{
+    width: 52px;
+    height: 52px;
+}
+
+.featured-item img{
+    width: 2rem;
+}
+
+.featured-content{
+    grid-template-columns: repeat(3,248px);
+    gap: 4rem;
+}
+
+.offer-container{
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 5rem;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.offer-data,
+.offer-title{
+    text-align: initial;
+}
+
+.offer-data{
+    margin-bottom: 0;
+}
+.offer-description{
+    padding-right: 6rem;
+}
+
+.offer-img{
+    width: 450px;
+}
+
+.logos-container{
+    grid-template-columns: repeat(6,max-content);
+}
+
+.logos-img{
+    width: 50px;
+}
+
+.footer-container{
+    grid-template-columns: repeat(4,max-content);
+    justify-content: space-between;
+}
+
+.footer-logo{
+    column-gap: .5rem;
+}
+
+.footer-logo i {
+    font-size: 2rem
+}
+
+.footer-title{
+    margin-bottom: 1.5rem;
+}
+
+.footer-links{
+    row-gap: .75rem;
+}
+
+.footer-social-link{
+    font-size: 1.5rem;
+}
+
+.footer-copy{
+    margin-top: 8rem;
+    padding-bottom: 1rem;
+}
+
+.scroll-up{
+    right: 3rem;
+}
+}

@@ -151,14 +151,17 @@
 /*========== ABOUT ==========*/
 .about-container {
     row-gap: 6rem;
+    overflow: hidden;
 }
 
 .about-group {
     position: relative;
+    justify-self: center;
 }
 
 .about-img {
-    width: 310px;
+    width: 90%;
+    align-self: center;
     border-radius: .5rem;
 }
 
@@ -200,7 +203,7 @@
 
 .popular-card {
     position: relative;
-    width: 235px;
+    width: 235px !important;
     background-color: var(--container-color);
     padding: 2rem 1.5rem 1.5rem;
     border-radius: 1rem;
@@ -354,7 +357,7 @@
 }
 
 .features-map {
-    max-width: initial;
+    max-width: 100%;
     width: 450px;
     position: absolute;
     top: 8rem;
