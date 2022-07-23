@@ -40,33 +40,34 @@ window.addEventListener("scroll", scrollHeader)
 
 //Swiper
 
-let swiper = new Swiper(".popular-container", 
-{  slidesPerView: 1,
-    spaceBetween: 10,
-    grabCursor:true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    breakpoints: {
-      "@0.00": {
+let swiper = new Swiper(".popular-container",
+    {
         slidesPerView: 1,
         spaceBetween: 10,
-      },
-      "@0.75": {
-        slidesPerView: 2,
-        spaceBetween: 20,
-      },
-      "@1.00": {
-        slidesPerView: 3,
-        spaceBetween: 40,
-      },
-      "@1.50": {
-        slidesPerView: 3,
-        spaceBetween: 50,
-      },
-    },
-});
+        grabCursor: true,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        breakpoints: {
+            "@0.00": {
+                slidesPerView: 1.3,
+                spaceBetween: 20,
+            },
+            "@0.75": {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+            "@1.00": {
+                slidesPerView: 3,
+                spaceBetween: 40,
+            },
+            "@1.50": {
+                slidesPerView: 3,
+                spaceBetween: 50,
+            },
+        },
+    });
 
 //Mixitup
 
@@ -112,7 +113,7 @@ function scrollActive() {
     const scrollY = window.pageYOffset
 
     sections.forEach(current => {
-            const sectionHeight = current.offsetHeight,
+        const sectionHeight = current.offsetHeight,
             sectionTop = current.offsetTop - 58,
             sectionId = current.getAttribute("id")
 
