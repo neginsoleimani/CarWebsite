@@ -19,6 +19,10 @@
         column-gap: 2rem;
     }
 
+    .about-img{
+        width: 210px;
+    }
+
     .about-card {
         width: 150px;
     }
@@ -165,7 +169,7 @@
 }
 
 .popular-card{
-    width: 258px;
+    width: 258px !important;
     border-radius: 1.25rem;
     margin-bottom: 5rem;
 }
@@ -202,7 +206,7 @@ padding: 2rem 0 3rem;
 
 .features-map{
     width: 650px;
-    top: 11rem;
+    margin-top: 1rem;
 }
 
 .featured-container{

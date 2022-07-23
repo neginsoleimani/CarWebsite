@@ -151,16 +151,14 @@
 /*========== ABOUT ==========*/
 .about-container {
     row-gap: 6rem;
-    overflow: hidden;
 }
 
 .about-group {
     position: relative;
-    justify-self: center;
 }
 
 .about-img {
-    width: 90%;
+    width: 310px;
     align-self: center;
     border-radius: .5rem;
 }
@@ -199,11 +197,12 @@
 /*========== POPULAR ==========*/
 .popular-container {
     padding-top: 1rem;
+    height: max-content;
 }
 
 .popular-card {
     position: relative;
-    width: 235px !important;
+    width: 238px !important;
     background-color: var(--container-color);
     padding: 2rem 1.5rem 1.5rem;
     border-radius: 1rem;
@@ -235,7 +234,7 @@
 }
 
 .popular-img {
-    width: 90%;
+    width: 160px;
     margin: 0.75rem 0 1.25rem 1.5rem;
     transition: .3s;
 }
@@ -284,8 +283,12 @@
 
 /* Swiper */
 
-.swiper {
-    height: max-content;
+.swiper{
+    margin-right: 400px;
+}
+
+.swiper-wrapper{
+ justify-content: initial;
 }
 
 .swiper-pagination-bullet {
@@ -328,7 +331,7 @@
     border-radius: 1.25rem;
     padding: .75rem 2rem;
     text-align: center;
-    color: var(--white-color);
+    color: var(--title-color);
     position: absolute;
 }
 
@@ -357,13 +360,14 @@
 }
 
 .features-map {
-    max-width: 100%;
+    max-width: initial;
     width: 450px;
     position: absolute;
     top: 8rem;
     left: -3rem;
+    right: 1;
     margin: auto;
-    transform: rotate(-22deg);
+
 }
 
 /*========== FEATURED ==========*/

@@ -40,22 +40,31 @@ window.addEventListener("scroll", scrollHeader)
 
 //Swiper
 
-let swiper = new Swiper(".popular-container", {
-    loop: true,
-    spaceBetween: 24,
-    slidesPreView: "auto",
-    grabCursor: true,
+let swiper = new Swiper(".popular-container", 
+{  slidesPerView: 1,
+    spaceBetween: 10,
+    grabCursor:true,
     pagination: {
-        el: ".swiper-pagination",
+      el: ".swiper-pagination",
+      clickable: true,
     },
-
     breakpoints: {
-        768: {
-            slidesPerView: 3,
-        },
-        1024: {
-            spaceBetween: 48,
-        },
+      "@0.00": {
+        slidesPerView: 1,
+        spaceBetween: 10,
+      },
+      "@0.75": {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      "@1.00": {
+        slidesPerView: 3,
+        spaceBetween: 40,
+      },
+      "@1.50": {
+        slidesPerView: 3,
+        spaceBetween: 50,
+      },
     },
 });
 
