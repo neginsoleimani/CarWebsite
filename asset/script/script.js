@@ -135,16 +135,17 @@ const sr = ScrollReveal({
     distance:'60px',
     duration:2500,
     delay:400,
+    // reset:true,
 })
 
-sr.reveal(`.home-title , .popular-container , .features-img , .featured-filters , .footer-copy`)
+sr.reveal(`.home-title , .popular-container , .features-img , .featured-filters , .footer-copy ,.about-data`)
 sr.reveal(`.home-subtitle`,{delay:500})
 sr.reveal(`.home-elec`,{delay:600})
 sr.reveal(`.home-img`,{delay:800})
 sr.reveal(`.home-car-data`,{delay:900,interval:100,origin:'bottom'})
 sr.reveal(`.home-button`,{delay:1000,origin:'bottom'})
 sr.reveal(`.about-group , .offer-data`,{origin:'left'})
-sr.reveal(`.about-data , .offer-img`,{origin:'right'})
+sr.reveal(`.offer-img`,{origin:'right'})
 sr.reveal(`.features-map`,{delay:600,origin:'bottom'})
 sr.reveal(`.features-card`,{interval:300})
 sr.reveal(`.featured-card , .logos-content , .footer-content`,{interval:100})
