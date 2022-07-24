@@ -1,6 +1,8 @@
-# CarWebsite
-:iphone: Responsive car website design :oncoming_automobile: 
-<img src="demo/preview.png" width="100%"></img> 
+<h1 align="center">:iphone: Responsive car website design :oncoming_automobile: </h1>
+</br>
+<img src="asset/demo/preview.png" width="100%"></img> 
+</br>
+
 * Responsive Car website Using HTML CSS & JavaScript
 * Contains animations when scrolling.
 * Smooth scrolling in each section.
